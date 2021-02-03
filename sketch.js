@@ -65,6 +65,8 @@ function setup(){
 function draw(){
     if(backgroundImg)
 {  background(backgroundImg);
+} else{
+background("lightblue");
 }
     Engine.update(myengine);
     groundb.display();
